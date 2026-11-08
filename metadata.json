@@ -1,0 +1,6 @@
+{
+  "name": "EmailGuard – AI-Powered Email Spam Detection System",
+  "description": "Intelligent NLP and Machine Learning email spam classification system featuring TF-IDF vectorization, Multinomial Naive Bayes, Logistic Regression, LinearSVC, real-time email analysis, bulk CSV detection, explainability, SQLite prediction history, and an analytics dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

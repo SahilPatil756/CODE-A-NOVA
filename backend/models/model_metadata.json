@@ -1,0 +1,151 @@
+{
+  "model_name": "Linear Support Vector Machine",
+  "model_version": "1.0.0",
+  "training_timestamp": "2026-11-08T11:01:18.686375Z",
+  "dataset_name": "UCI SMS & Email Spam Collection Benchmark",
+  "total_records": 5153,
+  "train_records": 4122,
+  "test_records": 1031,
+  "ham_count": 4511,
+  "spam_count": 642,
+  "class_imbalance_ratio": "1:7.0",
+  "vocabulary_size": 5000,
+  "selected_metrics": {
+    "name": "Linear Support Vector Machine",
+    "accuracy": 0.9903,
+    "precision": 0.9758,
+    "recall": 0.9453,
+    "f1_score": 0.9603,
+    "roc_auc": 0.9941,
+    "cv_f1_mean": 0.9449,
+    "cv_f1_std": 0.0091,
+    "confusion_matrix": {
+      "true_negative": 900,
+      "false_positive": 3,
+      "false_negative": 7,
+      "true_positive": 121
+    }
+  },
+  "all_models_comparison": {
+    "Multinomial Naive Bayes": {
+      "name": "Multinomial Naive Bayes",
+      "accuracy": 0.9884,
+      "precision": 0.9754,
+      "recall": 0.9297,
+      "f1_score": 0.952,
+      "roc_auc": 0.9901,
+      "cv_f1_mean": 0.943,
+      "cv_f1_std": 0.0131,
+      "confusion_matrix": {
+        "true_negative": 900,
+        "false_positive": 3,
+        "false_negative": 9,
+        "true_positive": 119
+      }
+    },
+    "Logistic Regression": {
+      "name": "Logistic Regression",
+      "accuracy": 0.9825,
+      "precision": 0.9104,
+      "recall": 0.9531,
+      "f1_score": 0.9313,
+      "roc_auc": 0.9944,
+      "cv_f1_mean": 0.935,
+      "cv_f1_std": 0.0148,
+      "confusion_matrix": {
+        "true_negative": 891,
+        "false_positive": 12,
+        "false_negative": 6,
+        "true_positive": 122
+      }
+    },
+    "Linear Support Vector Machine": {
+      "name": "Linear Support Vector Machine",
+      "accuracy": 0.9903,
+      "precision": 0.9758,
+      "recall": 0.9453,
+      "f1_score": 0.9603,
+      "roc_auc": 0.9941,
+      "cv_f1_mean": 0.9449,
+      "cv_f1_std": 0.0091,
+      "confusion_matrix": {
+        "true_negative": 900,
+        "false_positive": 3,
+        "false_negative": 7,
+        "true_positive": 121
+      }
+    }
+  },
+  "top_spam_keywords": [
+    {
+      "word": "currencysymbol",
+      "weight": 2.423
+    },
+    {
+      "word": "txt",
+      "weight": 1.8484
+    },
+    {
+      "word": "text",
+      "weight": 1.7778
+    },
+    {
+      "word": "tone",
+      "weight": 1.6026
+    },
+    {
+      "word": "88066",
+      "weight": 1.6016
+    },
+    {
+      "word": "arsenal",
+      "weight": 1.5946
+    },
+    {
+      "word": "ringtone",
+      "weight": 1.586
+    },
+    {
+      "word": "mobile",
+      "weight": 1.4893
+    },
+    {
+      "word": "win",
+      "weight": 1.4757
+    },
+    {
+      "word": "150p",
+      "weight": 1.4589
+    },
+    {
+      "word": "rep",
+      "weight": 1.4391
+    },
+    {
+      "word": "video",
+      "weight": 1.3713
+    },
+    {
+      "word": "service",
+      "weight": 1.355
+    },
+    {
+      "word": "free",
+      "weight": 1.3068
+    },
+    {
+      "word": "everyone",
+      "weight": 1.2346
+    }
+  ],
+  "feature_extraction": {
+    "method": "TF-IDF (Term Frequency-Inverse Document Frequency)",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 5000,
+    "min_df": 2,
+    "max_df": 0.95
+  }
+}

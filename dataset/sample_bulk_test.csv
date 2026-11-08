@@ -1,0 +1,11 @@
+subject,text,expected
+Urgent: Verify Your PayPal Account,"Dear customer, unusual activity was detected on your account. Please click http://paypal-verify-login.cc to confirm your identity or your account will be frozen within 24 hours.",spam
+Sprint Retrospective Notes - Sprint 42,"Hi all, thanks for attending yesterday's retro. Attached is the summary of action items and sprint goals for the upcoming cycle.",ham
+"YOU HAVE WON $500,000 LOTTERY JACKPOT!","Final notice! Your mobile number won the European International Lottery prize. Reply with your full name, bank details, and address to claim payout immediately.",spam
+Quarterly Financial Review Deck,Please find attached the Q3 financial slides for tomorrow morning's executive board review. Let me know if you need any adjustments before 5 PM.,ham
+Exclusive 80% Off Clearance Sale Ends Tonight!,"Don't miss our biggest flash sale! Buy designer watches, electronics and jewelry with free overnight delivery. Click here to shop now!",spam
+Doctor Appointment Reminder - Dr. Smith,This is a reminder for your upcoming routine physical appointment on Thursday at 10:00 AM. Please arrive 15 minutes early with your insurance card.,ham
+Invoice #48291 Due Notice,"Greetings, attached is invoice #48291 for cloud hosting services rendered in October. Payment is due in 30 days via standard wire transfer.",ham
+Work from Home Opportunity: Earn $5000/week,"No experience needed! Make guaranteed $5,000 to $8,000 weekly from your laptop. Wire registration fee of $99 to get your starter kit today.",spam
+Security Code for Two-Factor Verification,Your one-time authentication passcode is 839201. It is valid for 10 minutes. Do not share this code with anyone.,ham
+CONGRATULATIONS: Free Apple iPhone 15 Pro,You were chosen as our grand prize winner! Fill out this quick survey to claim your brand new iPhone 15 Pro with free shipping.,spam
